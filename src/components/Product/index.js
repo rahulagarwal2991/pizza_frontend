@@ -35,7 +35,7 @@ export default function Product({ product, quantity, setQuantityHandler }) {
 
     return (
         <Wrapper key={product.id}>
-            <ProductPicture src={`http://localhost:8000/storage/${product.picture}`} />
+            <ProductPicture src={`https://pizza-backend-app.herokuapp.com/storage/${product.picture}`} />
             <ProductInfo>
                 <ProductName>
                     {product.name}
